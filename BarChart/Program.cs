@@ -25,7 +25,7 @@ namespace BarChart
         {
             string bar = "*";
 
-            if (numOfGrades != 0)
+            if (numOfGrades > 0)
             {
                 for (int i = 1; i < numOfGrades; i++)
                 {
